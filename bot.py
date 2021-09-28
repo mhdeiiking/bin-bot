@@ -5,9 +5,9 @@ import string
 from time import sleep
 from telebot import types
 import random
-token = os.environ.get("BOT_TOKEN")
+
 #trakos
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot("1209526846:AAHUHZMkZw_dRLP1uiJI0Q3twDNEA_mwgms")
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
 	
