@@ -11,12 +11,7 @@
     ],
     "website": "",
     "success_url": "https://telegram.me/trprogram",
-    "env": {
-        "BOT_TOKEN": {
-            "description": "You Telegram Bot Token from @BotFather",
-            "value": ""
-        }
-}, 
+    
     "addons": [],
     "buildpacks": [
         {
